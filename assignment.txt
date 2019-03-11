@@ -1,0 +1,1 @@
+Undefined-is a variable that has been declared but has not yet been assigned a value WHILE Null- is an assinged value.
