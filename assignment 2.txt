@@ -1,0 +1,3 @@
+Declaration-is creating a variable.
+Defination-means to assing a variable with some specific value.
+Initialization-is the means of assigning an initial value to a variable.
