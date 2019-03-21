@@ -1,0 +1,17 @@
+var myFruits = ['apples', 'kiwi', 'grapes', 'avocadoes', 'oranges' ];
+
+undefined
+
+
+console.log(myFruits);
+VM1807:1
+ (5) ["apples", "kiwi", "grapes", "avocadoes", "oranges"]
+
+undefined
+
+
+console.log(myFruits [0]);
+VM1822:1
+ apples
+
+undefined
