@@ -1,0 +1,33 @@
+var kiosk = {
+
+
+getter:"grapes",
+
+setter:"apples",
+
+
+get fruitName () {
+
+
+return fruitName;
+
+},
+
+
+set fruitName(kiwi){
+
+
+
+return this.getter + " " + this.setter + "kiwi";
+
+}
+
+}
+
+  //undefined
+
+
+kiosk.fruitName = "grapes apples kiwi"
+
+
+    //"grapes apples kiwi"
