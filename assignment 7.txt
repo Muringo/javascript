@@ -1,0 +1,28 @@
+class KioskCalc {
+  constructor(bought,amount){
+  this.fruitPriceList={"berries":30,"apples":20,"cherries":10}
+  this.bought_name=bought ;
+  this.latest_fruit=this.fruitPriceList[bought];
+  this.amount=amount;
+  }
+
+getTotalCost() {
+return this.latest_fruit*this.amount;
+}
+  
+}
+
+var latest_KioskCalc = new KioskCalc("berries",2);
+console.log(latest_KioskCalc.amount + " " + latest_KioskCalc.bought_name + " for KES " + latest_KioskCalc.getTotalCost());
+
+var latest_KioskCalc = new KioskCalc("apples",2);
+console.log(latest_KioskCalc.amount + " " + latest_KioskCalc.bought_name + " for KES " + latest_KioskCalc.getTotalCost());
+
+var latest_KioskCalc = new KioskCalc("cherries",2);
+console.log(latest_KioskCalc.amount + " " + latest_KioskCalc.bought_name + " for KES " + latest_KioskCalc.getTotalCost());
+
+     //"2 berries for KES 60"
+     //"2 apples for KES 40"
+     //"2 cherries for KES 20"
+
+
