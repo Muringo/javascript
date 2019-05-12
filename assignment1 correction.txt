@@ -1,0 +1,13 @@
+
+Undefined means variables have been declared but has not yet been assigned a value.
+             Eg:var test2;
+                console.log(test2);
+                      // undefined
+                         undefined is a type.
+
+Null is an assigment value,it can be assigned to a variable as a represntation of no value.
+Also means empty,nothing.
+          Eg:var test1=null;
+             console.log(test1);
+                 // null
+                    null is an object.
