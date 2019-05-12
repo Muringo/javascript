@@ -1,0 +1,17 @@
+
+Difference between declaration,definition and initialization.
+
+Declaration. 
+Is the variable registered using a given name within the corresponding scope.
+
+Definition.
+Its showing how something has been implemented like a variable(var),or class of function.
+
+Initialzation.
+When you declare variable it is automatically initialized,which means memory is allocated for the variable by the javascript engine.
+                     example:var n; 
+                                // Declaration and iniialization.
+                             var n= "Lucie";
+                             Where my variable registered is (var n) and the name given is Lucie.
+
+
