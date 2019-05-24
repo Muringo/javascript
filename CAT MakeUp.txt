@@ -135,9 +135,9 @@ console.log(njeri.products)
 njeri.removeProduct(1)
 console.log(njeri.products)
 
-var wamuyu = new MumMboga()
-wamuyu.updateProduct("34567","Leah",400,9)
-console.log(wamuyu.products)
+var njeri = new MumMboga()
+njeri.updateProduct("34567","Leah",400,9)
+console.log(njeri.products)
 
 
 var wambui = new MumMboga()
@@ -168,9 +168,9 @@ tuskys.removeCustomer(2)
 console.log(tuskys.customers)
 
 
-var okoth = new MumMboga()
-okoth.updateCustomer("032","Serah","serah@gmail.com","2050");
-console.log(okoth.customers)
+var tuskys = new MumMboga()
+tuskys.updateCustomer("032","Serah","serah@gmail.com","2050");
+console.log(tuskys.customers)
 
 
 
