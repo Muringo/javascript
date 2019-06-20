@@ -1,13 +1,10 @@
-1.
 var myVar = setInterval(setColor, 300);
+
 function setColor() {
-var x = document.getElementById("title");
-x.style.color = x.style.color == "green" ? "silver" : "green";
+  var x = document.getElementById("title");
+  x.style.color = x.style.color == "green" ? "silver" : "green";
 }
 
-
-
-2.
 var fru = document.getElementsByClassName("fruits");
 var i;
 
@@ -23,9 +20,6 @@ for (i = 0; i < fru.length; i++) {
   });
 }
 
-
-
-3.
 var veg = document.getElementsByClassName("vegetables");
 var i;
 
@@ -42,16 +36,13 @@ for (i = 0; i < veg.length; i++) {
 }
 
 
-
-
-4.
 var fruitList = document.getElementById("fruitList");
 var vegeList = document.getElementById("vegeList");
 [fruitList,vegeList].forEach((element) => element.style.display = "none")
 
-var showDetails = (idTag) => {
-var element = document.getElementById(idTag);
-element.style.display = element.style.display == "none"? "inline-block":"none"
+var Show = (idTag) => {
+var neew = document.getElementById(idTag);
+neew.style.display = neew.style.display == "none"? "inline-block":"none"
 }
 
 let fruits = ["Mangoes", "Bananas", "Water Melons"]
@@ -64,33 +55,30 @@ function createListElement(text){
 }
 
 function DynamicListRender(){
-var ListItem = (items) =>{
-return items.map((item) => createListElement(item));
+  var List = (items) =>{
+    return items.map((items) => createListElement(items));
   }; 
-function addListItem(id, allItem){
-ListItem(allItem).forEach(listElement => {
-})
+function addList(id, allItem){
+  ListItem(allItem).forEach(listElement => {
+    
+  })
 }
 addListItem(fruitList, fruits);  
 }
 function inputValues(){
-return document.getElementById("fruit").value
+  return document.getElementById("fruit").value
 }
 
 function appendNewElement(){
-fruits = [...fruits,inputValues()]
-appendSingleItem(fruitList, createListElement(inputValues()))
+  fruits = [...fruits,inputValues()]
+  appendItem(fruitList, createListElement(inputValues()))
 }
-function appendSingleItem(id,Singleitem){
-id.appendChild(SingleItem)
+function appendItem(id,item){
+  id.appendChild(Item)
 }
 
-
-
-
-5.
-var vegsInput = document.getElementById("vegs");
-vegsInput.addEventListener("keyup", function(event){
+var vegeInput = document.getElementById("vege");
+vegeInput.addEventListener("keyup", function(event){
         if(event.KeyCode === 13){
           event.preventDefault();
           var newVegetable = vegsInput.value
@@ -102,4 +90,24 @@ dynamicListRender()
                            
                            
                            
-                     
+                           
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
