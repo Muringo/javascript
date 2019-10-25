@@ -1,2 +1,2 @@
 # javascript
-This are all my JavaScript assignments.
+These are all my JavaScript assignments.
